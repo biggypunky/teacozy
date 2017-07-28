@@ -1,11 +1,13 @@
-html{
+* {
+  color: seashell;
+}
+
+html {
   font-family: Helvetica;
   font-size: 22px;
-  color: seashell;
   background-color: black;
   opacity: 0.9;
   text-align: center;
-  margin: 0;
 }
 
 header {
@@ -30,7 +32,6 @@ header {
 
 nav a {
   margin: 10px;
-  color: inherit;
 }
 
 #mission {
@@ -55,35 +56,27 @@ section {
   flex-wrap: wrap;
   align-items: center;
   position: relative;
-  top: 69px;
   margin: auto;
-  width: 1000px;
 }
 
 img {
   height: 200px;
   width: 300px;
-  margin: 10px 15px;
-  padding: 0px 0px;
+  margin: 0px 15px;
+  padding-top: 10px;
 }
 
-h4 {
-  margin: 0px 0 20px 0px;
-}
-
-#tea {
+#feature {
   display: flex;
   flex-direction: column;
   width: 1000px;
-  margin: 0 auto 0 auto;
-  padding-top: 69px;
+  padding-top: 60px;
 }
 
 .teas {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
 }
 
 #locations {
@@ -91,31 +84,31 @@ h4 {
   width: 1200px;
   height: 500px;
   margin: 60px auto 10px auto;
-  padding-top: 69px;
+}
+
+#locations h2 {
+  margin-top: 60px;
+  margin-bottom: 0px;
 }
 
 .locations {
   display: flex;
   flex-flow: wrap;
   justify-content: center;
+  margin: 0;
 }
 
-span {
+.store {
   background-color: black;
   margin: 15px 20px 0px 20px;
   opacity: 1;
   width: 300px;
 }
 
-.pad {
-  padding: 4px 0px 9px 0px;
-}
-
-address {
+.address {
   height: 200px;
   width: 100%;
   font-style: normal;
-  margin-top: 0px;
 }
 
 footer {
